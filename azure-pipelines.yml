@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'ex7_demo'
 
 steps:
 - task: Maven@3
